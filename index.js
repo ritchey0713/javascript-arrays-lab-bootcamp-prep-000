@@ -35,3 +35,9 @@ function removeLastKitten (){
  kitten = kitten.slice(0,kitten.length -1)
   return kitten
 }
+
+function removeFirstKitten(){
+  kitten = kitten.slice(1)
+  return kitten
+  
+}
